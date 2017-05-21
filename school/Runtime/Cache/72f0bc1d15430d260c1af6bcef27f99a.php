@@ -1,0 +1,485 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            width:1000px;
+            border-collapse:collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>校区</th>
+            <th>姓名</th>
+            <th>用户名</th>
+            <th>简称</th>
+            <th>范围</th>
+            <th>科目</th>
+            <th>权限A</th>
+            <th>权限B</th>
+            <th>权限C</th>
+            <th>密码重置</th>
+            <th>操作</th>
+        </tr>
+        <tr>
+            <td>总</td>
+            <td>admin</td>
+            <td>admin</td>
+            <td>A</td>
+            <td>
+                <input type="radio" name="range" checked>个人
+                <input type="radio" name="range">全校
+            </td>
+            <td>
+                <input type="checkbox">美术
+            </td>
+            <td>
+                <input type="checkbox">招生
+                <input type="checkbox">学员</br>
+                <input type="checkbox">教学
+                <input type="checkbox">沟通
+            </td>
+            <td>
+                <input type="checkbox">招生
+                <input type="checkbox">学员
+            </td>
+            <td>
+                <input type="checkbox">招生
+                <input type="checkbox">学员
+            </td>
+            <td>
+                <input type="reset" value="重置">
+            </td>
+            <td>
+                <button>停用</button>
+            </td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>总</td>
+            <td>admin</td>
+            <td>admin</td>
+            <td>A</td>
+            <td>
+                <input type="radio" name="range" checked>个人
+                <input type="radio" name="range">全校
+            </td>
+            <td>
+                <input type="checkbox">美术
+            </td>
+            <td>
+                <input type="checkbox">招生
+                <input type="checkbox">学员</br>
+                <input type="checkbox">教学
+                <input type="checkbox">沟通
+            </td>
+            <td>
+                <input type="checkbox">招生
+                <input type="checkbox">学员
+            </td>
+            <td>
+                <input type="checkbox">招生
+                <input type="checkbox">学员
+            </td>
+            <td>
+                <input type="reset" value="重置">
+            </td>
+            <td>
+                <button>停用</button>
+            </td>
+        </tr><tr>
+        <td>总</td>
+        <td>admin</td>
+        <td>admin</td>
+        <td>A</td>
+        <td>
+            <input type="radio" name="range" checked>个人
+            <input type="radio" name="range">全校
+        </td>
+        <td>
+            <input type="checkbox">美术
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员</br>
+            <input type="checkbox">教学
+            <input type="checkbox">沟通
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="reset" value="重置">
+        </td>
+        <td>
+            <button>停用</button>
+        </td>
+    </tr><tr>
+        <td>总</td>
+        <td>admin</td>
+        <td>admin</td>
+        <td>A</td>
+        <td>
+            <input type="radio" name="range" checked>个人
+            <input type="radio" name="range">全校
+        </td>
+        <td>
+            <input type="checkbox">美术
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员</br>
+            <input type="checkbox">教学
+            <input type="checkbox">沟通
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="reset" value="重置">
+        </td>
+        <td>
+            <button>停用</button>
+        </td>
+    </tr><tr>
+        <td>总</td>
+        <td>admin</td>
+        <td>admin</td>
+        <td>A</td>
+        <td>
+            <input type="radio" name="range" checked>个人
+            <input type="radio" name="range">全校
+        </td>
+        <td>
+            <input type="checkbox">美术
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员</br>
+            <input type="checkbox">教学
+            <input type="checkbox">沟通
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="reset" value="重置">
+        </td>
+        <td>
+            <button>停用</button>
+        </td>
+    </tr><tr>
+        <td>总</td>
+        <td>admin</td>
+        <td>admin</td>
+        <td>A</td>
+        <td>
+            <input type="radio" name="range" checked>个人
+            <input type="radio" name="range">全校
+        </td>
+        <td>
+            <input type="checkbox">美术
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员</br>
+            <input type="checkbox">教学
+            <input type="checkbox">沟通
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="reset" value="重置">
+        </td>
+        <td>
+            <button>停用</button>
+        </td>
+    </tr><tr>
+        <td>总</td>
+        <td>admin</td>
+        <td>admin</td>
+        <td>A</td>
+        <td>
+            <input type="radio" name="range" checked>个人
+            <input type="radio" name="range">全校
+        </td>
+        <td>
+            <input type="checkbox">美术
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员</br>
+            <input type="checkbox">教学
+            <input type="checkbox">沟通
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="reset" value="重置">
+        </td>
+        <td>
+            <button>停用</button>
+        </td>
+    </tr><tr>
+        <td>总</td>
+        <td>admin</td>
+        <td>admin</td>
+        <td>A</td>
+        <td>
+            <input type="radio" name="range" checked>个人
+            <input type="radio" name="range">全校
+        </td>
+        <td>
+            <input type="checkbox">美术
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员</br>
+            <input type="checkbox">教学
+            <input type="checkbox">沟通
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="reset" value="重置">
+        </td>
+        <td>
+            <button>停用</button>
+        </td>
+    </tr><tr>
+        <td>总</td>
+        <td>admin</td>
+        <td>admin</td>
+        <td>A</td>
+        <td>
+            <input type="radio" name="range" checked>个人
+            <input type="radio" name="range">全校
+        </td>
+        <td>
+            <input type="checkbox">美术
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员</br>
+            <input type="checkbox">教学
+            <input type="checkbox">沟通
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="reset" value="重置">
+        </td>
+        <td>
+            <button>停用</button>
+        </td>
+    </tr><tr>
+        <td>总</td>
+        <td>admin</td>
+        <td>admin</td>
+        <td>A</td>
+        <td>
+            <input type="radio" name="range" checked>个人
+            <input type="radio" name="range">全校
+        </td>
+        <td>
+            <input type="checkbox">美术
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员</br>
+            <input type="checkbox">教学
+            <input type="checkbox">沟通
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="reset" value="重置">
+        </td>
+        <td>
+            <button>停用</button>
+        </td>
+    </tr><tr>
+        <td>总</td>
+        <td>admin</td>
+        <td>admin</td>
+        <td>A</td>
+        <td>
+            <input type="radio" name="range" checked>个人
+            <input type="radio" name="range">全校
+        </td>
+        <td>
+            <input type="checkbox">美术
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员</br>
+            <input type="checkbox">教学
+            <input type="checkbox">沟通
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="reset" value="重置">
+        </td>
+        <td>
+            <button>停用</button>
+        </td>
+    </tr><tr>
+        <td>总</td>
+        <td>admin</td>
+        <td>admin</td>
+        <td>A</td>
+        <td>
+            <input type="radio" name="range" checked>个人
+            <input type="radio" name="range">全校
+        </td>
+        <td>
+            <input type="checkbox">美术
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员</br>
+            <input type="checkbox">教学
+            <input type="checkbox">沟通
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="reset" value="重置">
+        </td>
+        <td>
+            <button>停用</button>
+        </td>
+    </tr><tr>
+        <td>总</td>
+        <td>admin</td>
+        <td>admin</td>
+        <td>A</td>
+        <td>
+            <input type="radio" name="range" checked>个人
+            <input type="radio" name="range">全校
+        </td>
+        <td>
+            <input type="checkbox">美术
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员</br>
+            <input type="checkbox">教学
+            <input type="checkbox">沟通
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="reset" value="重置">
+        </td>
+        <td>
+            <button>停用</button>
+        </td>
+    </tr><tr>
+        <td>总</td>
+        <td>admin</td>
+        <td>admin</td>
+        <td>A</td>
+        <td>
+            <input type="radio" name="range" checked>个人
+            <input type="radio" name="range">全校
+        </td>
+        <td>
+            <input type="checkbox">美术
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员</br>
+            <input type="checkbox">教学
+            <input type="checkbox">沟通
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="checkbox">招生
+            <input type="checkbox">学员
+        </td>
+        <td>
+            <input type="reset" value="重置">
+        </td>
+        <td>
+            <button>停用</button>
+        </td>
+    </tr>
+    </table>
+</body>
+</html>
